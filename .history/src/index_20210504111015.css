@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100&display=swap");
+
+.contact-button {
+  background-color: #cf3f74 !important;
+}
+
+.screen-first-column {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 56px;
+  line-height: 67px;
+  font-weight: 200px;
+
+}
+.screen-links {
+  color: #252525;
+  padding: 0px 60px !important;
+
+
+}

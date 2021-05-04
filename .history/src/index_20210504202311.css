@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200&display=swap");
+@font-face {
+  font-family: "National 2";
+  font-style: normal;
+  font-weight: 300;
+  src: local("National 2 Light"), local("National2-Light"), local("National 2"), local("National2"),
+    url("./fonts/national2web-light.woff2") format("woff2"), url("./fonts/national2web-light.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "National 2";
+  font-weight: 400;
+  src: local("National 2 Regular"), local("National2-Regular"), local("National 2"), local("National2"),
+    url("./fonts/national2web-regular.woff2") format("woff2"), url("./fonts/national2web-regular.woff2") format("woff");
+}
+@font-face {
+  font-family: "National 2";
+  font-style: normal;
+  font-weight: 500;
+  src: local("National 2 Medium"), local("National2-Medium"), local("National 2"), local("National2"),
+    url("./fonts/national2web-medium.woff2") format("woff2"), url("./fonts/national2web-medium.woff2") format("woff");
+}
+.contact-button {
+  background-color: #cf3f74 !important;
+}
+.brand {
+  padding: 0px 60px !important;
+  font-family: "National 2", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+.screen {
+  padding-top: 80px;
+  padding-bottom: 110px;
+  max-height: 870px;
+  height: calc(100vh+1px);
+}
+.screen-first-column {
+  font-size: 56px;
+  line-height: 67px;
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 200;
+  src: url("https://fonts.gstatic.com/s/ibmplexserif/v9/jizAREVNn1dOx-zrZ2X3pZvkTi3Q-iI0q1s.woff2") format("woff2");
+}
+.screen-first-column-links {
+  color: #252525;
+  padding: 0px 60px !important;
+}
+.nav-link:hover {
+  color: #252525;
+}
+
+.screen-second-column-columns {
+  flex: none;
+  align-self: stretch;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  margin-bottom: 3em;
+  width: 50%;
+  max-width: 220px;
+}
+.screen-second-column-links {
+  color: #000000 !important;
+  padding: 0px 25px 0px 0px !important;
+  font-family: "National 2", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 2px;
+  height: 30px;
+  width: 50%;
+}
+.screen-second-column-links,
+.screen-first-column-links {
+  position: relative;
+  overflow: hidden;
+}
+.screen-second-column-heading {
+  font-family: "National 2", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 18px;
+  color: #757575;
+  margin-bottom: 0.66667em;
+  letter-spacing: -0.016em;
+}
+
+.screen-link-hover {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.04);
+  height: 100%;
+  width: 100%;
+  transform: translate(103%, 0px);
+}
+
+.enter .screen-link-hover {
+  animation: enter 0.4s 1;
+  transform: translate(-30%, 0px);
+}
+.exit .screen-link-hover {
+  animation: exit 0.4s 1;
+}
+
+@keyframes enter {
+  from {
+    transform: translate(-103%, 0px);
+  }
+
+  to {
+    transform: translate(-30%, 0px);
+  }
+}
+
+@keyframes exit {
+  from {
+    transform: translate(-30%, 0px);
+  }
+
+  to {
+    transform: translate(103%, 0px);
+  }
+}
+
+.screen-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(0, -100%);
+}

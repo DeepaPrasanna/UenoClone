@@ -1,0 +1,16 @@
+import React from "react";
+
+import { Container,Row,Col } from "react-bootstrap";
+
+const Screen = () => {
+  return (
+    <Container fluid>
+      <Row sm={12} md={6}>
+        <Col >helo</Col>
+        <Col>bye</Col>
+      </Row>
+    </Container>
+  );
+};
+
+export default Screen;

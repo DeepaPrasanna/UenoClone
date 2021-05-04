@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap");
+
+@font-face {
+  font-family: "National 2";
+
+  src: local("National 2 Regular"), local("National2-Regular"), local("National 2"), local("National2"),
+    url("./fonts/national2web-regular.woff2") format("woff2"), url("./fonts/national2web-regular.woff2") format("woff");
+}
+
+.contact-button {
+  background-color: #cf3f74 !important;
+}
+
+.screen-first-column {
+  font-size: 56px;
+  line-height: 67px;
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 200;
+  src: url("https://fonts.gstatic.com/s/ibmplexserif/v9/jizAREVNn1dOx-zrZ2X3pZvkTi3Q-iI0q1s.woff2") format("woff2");
+}
+.screen-first-column-links {
+  color: #252525;
+  padding: 0px 60px !important;
+}
+.nav-link:hover {
+  color: #252525;
+}
+
+.screen-second-column-columns {
+  flex: none;
+  align-self: stretch;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  margin-bottom: 3em;
+  width: 50%;
+  max-width: 220px;
+}
+.screen-second-column-links {
+  color: #000000 !important;
+  padding: 0px 25px 0px 0px !important;
+  font-family: "National 2", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 2px;
+}
+
+.screen-second-column-heading {
+  font-family: "National 2", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 18px;
+  color: #757575;
+  margin-bottom: 0.66667em;
+  letter-spacing: -0.016em;
+}
