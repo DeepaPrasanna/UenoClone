@@ -24,7 +24,7 @@ const Screen = (props) => {
           </div>
         </Col>
       </Row>
-      <Row className=" screen w-100">
+      <Row className="screen w-100">
         <Col md={6} className=" screen-first-column">
           <Row>
             <Col>
@@ -130,7 +130,7 @@ const Screen = (props) => {
               <h2 className="screen-second-column-heading">Directions</h2>
               <Nav className="flex-column">
                 <Nav.Link href="#" className="screen-second-column-links" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-                  San Franscisco<span className="screen-link-hover"></span>
+                  San Francisco<span className="screen-link-hover"></span>
                 </Nav.Link>
                 <Nav.Link href="#" className="screen-second-column-links" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
                   New York<span className="screen-link-hover"></span>
